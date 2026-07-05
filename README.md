@@ -2,6 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/evalci)](https://pypi.org/project/evalci/)
 [![tests](https://github.com/Shreyaskc/evalci/actions/workflows/tests.yml/badge.svg)](https://github.com/Shreyaskc/evalci/actions/workflows/tests.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21201815.svg)](https://doi.org/10.5281/zenodo.21201815)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Statistically sound comparisons between LLMs on benchmarks: confidence
@@ -20,8 +21,9 @@ enumeration fixtures.
 ## Status
 
 Core library (statistics, eval-shaped workflows, adapters, CLI) is implemented,
-tested, and released on PyPI (v0.1.0). CI runs the test suite across Python
-3.9–3.12 on every push. No Zenodo DOI or arXiv paper yet.
+tested, and released on PyPI. CI runs the test suite across Python 3.9–3.12 on
+every push. Tagged releases are archived on Zenodo with a DOI. No arXiv paper
+or JOSS submission yet.
 
 ## Install
 
