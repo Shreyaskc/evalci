@@ -1,0 +1,20 @@
+{
+  "title": "evalci: Statistical Rigor for LLM Evaluation",
+  "description": "Statistically sound comparisons between LLMs on benchmarks: confidence intervals (Wilson/Clopper-Pearson/bootstrap), paired significance tests (permutation/bootstrap/McNemar), power analysis, clustered standard errors for multi-sample decoding, and multiple-comparison correction across many models/benchmarks. Validated against statsmodels/exact-enumeration fixtures.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Shreyas"
+    }
+  ],
+  "keywords": [
+    "llm",
+    "evaluation",
+    "statistics",
+    "confidence-interval",
+    "significance-testing",
+    "benchmarking"
+  ],
+  "access_right": "open"
+}
