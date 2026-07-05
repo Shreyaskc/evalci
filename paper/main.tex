@@ -1,4 +1,6 @@
 \documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
 \usepackage{booktabs}
@@ -13,7 +15,8 @@
   columns=fullflexible,
   breaklines=true,
   frame=single,
-  backgroundcolor=\color{black!3}
+  backgroundcolor=\color{black!3},
+  literate={Δ}{{$\Delta$}}1
 }
 
 \title{evalci: A Python Library for Statistically Rigorous\\ Comparison of Language Model Evaluations}
