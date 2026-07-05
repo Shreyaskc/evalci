@@ -1,5 +1,9 @@
 # evalci
 
+[![PyPI](https://img.shields.io/pypi/v/evalci)](https://pypi.org/project/evalci/)
+[![tests](https://github.com/Shreyaskc/evalci/actions/workflows/tests.yml/badge.svg)](https://github.com/Shreyaskc/evalci/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Statistically sound comparisons between LLMs on benchmarks: confidence
 intervals on accuracy, paired significance tests, power analysis, clustered
 standard errors for multi-sample decoding, and multiple-comparison correction
@@ -15,20 +19,26 @@ enumeration fixtures.
 
 ## Status
 
-Core library (statistics, eval-shaped workflows, adapters, CLI) is implemented
-and tested. Not yet released to PyPI; no arXiv paper or DOI yet.
+Core library (statistics, eval-shaped workflows, adapters, CLI) is implemented,
+tested, and released on PyPI (v0.1.0). CI runs the test suite across Python
+3.9–3.12 on every push. No Zenodo DOI or arXiv paper yet.
 
 ## Install
 
-Not yet on PyPI. Install from source:
+```bash
+pip install evalci
+```
+
+Requires Python ≥3.9. Runtime dependencies are numpy, scipy, and pandas only.
+
+To hack on the library itself (and run the statsmodels-validated test suite):
 
 ```bash
 git clone https://github.com/Shreyaskc/evalci.git
 cd evalci
-pip install -e ".[test]"   # add [test] to also get pytest/statsmodels for running the test suite
+pip install -e ".[test]"
+pytest tests/
 ```
-
-Requires Python ≥3.9. Runtime dependencies are numpy, scipy, and pandas only.
 
 ## Usage
 
@@ -114,12 +124,8 @@ re-testing its own math:
 - The paired permutation test against brute-force exact enumeration of all sign flips (small n)
 - Bootstrap CIs via a coverage simulation (nominal 95% CIs should contain the true parameter ~95% of the time)
 
-`statsmodels` is a test-only dependency (`pip install -e ".[test]"`), not a
-runtime dependency.
-
-```bash
-pytest tests/
-```
+`statsmodels` is a test-only dependency, not a runtime one (see the "hack on
+the library" install above).
 
 ## API surface
 
