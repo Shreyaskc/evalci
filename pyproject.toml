@@ -9,11 +9,28 @@ description = "Statistical significance & confidence intervals for LLM evals"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
+authors = [
+    { name = "Shreyas" },
+]
+keywords = ["llm", "evaluation", "statistics", "confidence-interval", "significance-testing", "benchmarking"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 dependencies = [
     "numpy",
     "scipy",
     "pandas",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Shreyaskc/evalci"
+Repository = "https://github.com/Shreyaskc/evalci"
+Issues = "https://github.com/Shreyaskc/evalci/issues"
 
 [project.optional-dependencies]
 test = ["pytest", "statsmodels"]
