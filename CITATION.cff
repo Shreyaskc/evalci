@@ -4,7 +4,7 @@ authors:
   - given-names: Shreyas
     alias: shrchand
 title: "evalci — Statistical Rigor for LLM Evaluation"
-version: 0.1.0-alpha
-date-released: 2026-07-04
-repository-code: "https://github.com/shrchand/evalci"
+version: 0.1.1
+date-released: 2026-07-05
+repository-code: "https://github.com/Shreyaskc/evalci"
 license: MIT
