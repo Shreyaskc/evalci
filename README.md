@@ -22,8 +22,8 @@ enumeration fixtures.
 
 Core library (statistics, eval-shaped workflows, adapters, CLI) is implemented,
 tested, and released on PyPI. CI runs the test suite across Python 3.9–3.12 on
-every push. Tagged releases are archived on Zenodo with a DOI. No arXiv paper
-or JOSS submission yet.
+every push. Tagged releases are archived on Zenodo with a DOI. The methods
+paper has been submitted to arXiv (listing pending); no JOSS submission yet.
 
 ## Install
 
