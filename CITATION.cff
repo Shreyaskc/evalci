@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: Shreyas
+    alias: shrchand
+title: "evalci — Statistical Rigor for LLM Evaluation"
+version: 0.1.0-alpha
+date-released: 2026-07-04
+repository-code: "https://github.com/shrchand/evalci"
+license: MIT
