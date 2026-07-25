@@ -3,6 +3,7 @@
 [![PyPI](https://img.shields.io/pypi/v/evalci)](https://pypi.org/project/evalci/)
 [![tests](https://github.com/Shreyaskc/evalci/actions/workflows/tests.yml/badge.svg)](https://github.com/Shreyaskc/evalci/actions/workflows/tests.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21201815.svg)](https://doi.org/10.5281/zenodo.21201815)
+[![arXiv](https://img.shields.io/badge/arXiv-2607.04429-b31b1b.svg)](https://arxiv.org/abs/2607.04429)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Statistically sound comparisons between LLMs on benchmarks: confidence
@@ -23,7 +24,8 @@ enumeration fixtures.
 Core library (statistics, eval-shaped workflows, adapters, CLI) is implemented,
 tested, and released on PyPI. CI runs the test suite across Python 3.9–3.12 on
 every push. Tagged releases are archived on Zenodo with a DOI. The methods
-paper has been submitted to arXiv (listing pending); no JOSS submission yet.
+paper is on arXiv: [2607.04429](https://arxiv.org/abs/2607.04429); no JOSS
+submission yet.
 
 ## Install
 
@@ -134,6 +136,23 @@ the library" install above).
 `evalci.ci`, `evalci.compare`, `evalci.power`, `evalci.multi_compare`,
 `evalci.cluster_ci`, `evalci.report`, `evalci.adapters.{load_lm_eval_harness,
 load_helm, load_csv}`.
+
+## Citation
+
+If you use evalci in your research, please cite the [arXiv paper](https://arxiv.org/abs/2607.04429):
+
+```bibtex
+@misc{chandrahas2026evalci,
+  title  = {evalci: A Python Library for Statistically Rigorous Comparison of Language Model Evaluations},
+  author = {Chandrahas, Shreyas K},
+  year   = {2026},
+  eprint = {2607.04429},
+  archivePrefix = {arXiv},
+  url    = {https://arxiv.org/abs/2607.04429}
+}
+```
+
+Or cite the software directly via [CITATION.cff](CITATION.cff) / the [Zenodo DOI](https://doi.org/10.5281/zenodo.21201815).
 
 ## License
 
